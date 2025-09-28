@@ -1,6 +1,7 @@
-import './App.css'
-import HeroSection from './Components/SearchSection'
-import NavigationBar from './Components/NavigationBar'
+import './App.css';
+import HeroSection from './Components/SearchSection';
+import NavigationBar from './Components/NavigationBar';
+import JobList from './Components/JobList';
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <NavigationBar />
       <HeroSection />
+      <JobList />
     </>
   )
 }
